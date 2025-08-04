@@ -6,7 +6,7 @@ This project aims to help **Interconnect**, a telecom provider, predict customer
 
 ---
 
-## 🎯 Project Goal
+## Project Goal
 
 Build a machine learning model to:
 - Predict if a customer will churn (`EndDate != 'No'`)
@@ -14,7 +14,7 @@ Build a machine learning model to:
 
 ---
 
-## 🗂️ Data Sources
+##  Data Sources
 
 Four CSV files:
 - `contract.csv`: contract type, tenure, billing, and end status
@@ -26,13 +26,13 @@ Each includes `customerID` as a unique identifier.
 
 ---
 
-## 🧠 Target & Evaluation Metrics
+##  Target & Evaluation Metrics
 
 - **Target:** Churn = customers where `EndDate` ≠ `'No'`
 - **Primary Metric:** AUC-ROC
 - **Secondary Metric:** Accuracy
 
-### ✅ Score Criteria
+###  Score Criteria
 | AUC-ROC Range     | Score Points |
 |-------------------|--------------|
 | < 0.75            | 0 SP         |
@@ -44,7 +44,7 @@ Each includes `customerID` as a unique identifier.
 
 ---
 
-## 🔧 Methodology
+##  Methodology
 
 1. **Data Preprocessing**
    - Merged datasets on `customerID`
@@ -62,7 +62,7 @@ Each includes `customerID` as a unique identifier.
 
 ---
 
-## 📈 Tools & Libraries
+##  Tools & Libraries
 
 - Python
 - `pandas`, `numpy`
@@ -71,7 +71,7 @@ Each includes `customerID` as a unique identifier.
 
 ---
 
-## 📊 Results
+##  Results
 
 - Best model: Random Forest / Gradient Boosting (depending on tuning)
 - AUC-ROC: ≥ **0.88** (target met ✅)
@@ -79,7 +79,7 @@ Each includes `customerID` as a unique identifier.
 
 ---
 
-## 💡 Business Value
+##  Business Value
 
 With accurate churn prediction, Interconnect can:
 - Offer custom promotions to retain valuable users
