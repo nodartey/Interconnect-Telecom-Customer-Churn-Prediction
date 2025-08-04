@@ -73,8 +73,8 @@ Each includes `customerID` as a unique identifier.
 
 ##  Results
 
-- Best model: Random Forest / Gradient Boosting (depending on tuning)
-- AUC-ROC: ≥ **0.88** (target met ✅)
+- Best model: Logistics Regression
+- AUC-ROC: ≥ **0.82** (target met )
 - Insights into churn drivers (e.g., month-to-month contracts, fiber-optic users)
 
 ---
